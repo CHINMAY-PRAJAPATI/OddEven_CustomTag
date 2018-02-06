@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>  
+<taglib>
+	<tlib-version>1.0</tlib-version>
+	<jsp-version>1.2</jsp-version>
+	<short-name>OddEvenTag</short-name>
+	<uri>mytags</uri>
+	
+	<tag>
+		<name>oddEven</name>
+		<tag-class>com.example.MyTagHandlerClasses.OddEvenTagHandler</tag-class>
+		<description>This tag is used for displaying whether the entered no. is odd or even</description>
+		<body-content>empty</body-content>
+		<attribute>
+			<name>num</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>	
+	</tag>
+	
+</taglib>
