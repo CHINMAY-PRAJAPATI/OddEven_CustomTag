@@ -7,8 +7,6 @@ import javax.servlet.jsp.JspWriter;
 import javax.servlet.jsp.PageContext;
 import javax.servlet.jsp.tagext.SimpleTagSupport;
 
-import org.apache.taglibs.standard.lang.jstl.test.PageContextImpl;
-
 public class OddEvenTagHandler extends SimpleTagSupport{
 
 	private int number;
